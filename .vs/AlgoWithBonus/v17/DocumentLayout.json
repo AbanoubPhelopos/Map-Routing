@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|c:\\users\\youssef\\source\\repos\\algowithbonus\\algowithbonus\\visualizegraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|solutionrelative:algowithbonus\\visualizegraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|c:\\users\\youssef\\source\\repos\\algowithbonus\\algowithbonus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|solutionrelative:algowithbonus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|c:\\users\\youssef\\source\\repos\\algowithbonus\\algowithbonus\\mapandqueryreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|solutionrelative:algowithbonus\\mapandqueryreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\algowithbonus\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|solutionrelative:algowithbonus\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|c:\\users\\youssef\\source\\repos\\algowithbonus\\algowithbonus\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|solutionrelative:algowithbonus\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\algowithbonus\\visualizegraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|solutionrelative:algowithbonus\\visualizegraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|c:\\users\\youssef\\source\\repos\\algowithbonus\\algowithbonus\\solveproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\AlgoWithBonus.csproj|solutionrelative:algowithbonus\\solveproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "solveProblem.cs",
+              "DocumentMoniker": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\solveProblem.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\solveProblem.cs",
+              "ToolTip": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\solveProblem.cs",
+              "RelativeToolTip": "AlgoWithBonus\\solveProblem.cs",
+              "ViewState": "AgIAABEBAAAAAAAAAAD4vxgBAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:27:01.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VisualizeGraph.cs",
+              "DocumentMoniker": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\VisualizeGraph.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\VisualizeGraph.cs",
+              "ToolTip": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\VisualizeGraph.cs",
+              "RelativeToolTip": "AlgoWithBonus\\VisualizeGraph.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:46:20.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\Program.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\Program.cs",
+              "ToolTip": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\Program.cs",
+              "RelativeToolTip": "AlgoWithBonus\\Program.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwGMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:37:54.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VisualizeGraph.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\VisualizeGraph.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\VisualizeGraph.cs",
+              "ToolTip": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\VisualizeGraph.cs [Design]",
+              "RelativeToolTip": "AlgoWithBonus\\VisualizeGraph.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:36:36.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mapAndQueryReader.cs",
+              "DocumentMoniker": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\mapAndQueryReader.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\mapAndQueryReader.cs",
+              "ToolTip": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\mapAndQueryReader.cs",
+              "RelativeToolTip": "AlgoWithBonus\\mapAndQueryReader.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwCIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T19:11:05.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\Form1.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\Form1.cs",
+              "ToolTip": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\Form1.cs",
+              "RelativeToolTip": "AlgoWithBonus\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAawBgAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T17:55:58.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\Form1.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\Form1.cs",
+              "ToolTip": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\Form1.cs [Design]",
+              "RelativeToolTip": "AlgoWithBonus\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T17:48:49.601Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
