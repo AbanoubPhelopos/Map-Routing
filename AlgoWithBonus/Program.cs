@@ -20,13 +20,15 @@ namespace AlgoWithBonus
             Application.Run(new Form1());
         }
 
-        public static void runTest(string mapPath, string queryPath)
+        public static void runTest(string mapPath, string queryPath, string outputPath)
         {
 
             Stopwatch IOincluded = new Stopwatch();
             IOincluded.Start();
-
-            string outputPath = @"C:\Users\Youssef\Desktop\output.txt";
+            if (outputPath == null)
+            { 
+            outputPath = @"D:\college\third year\6th term\algorism\Project\AlgoWithBonus\outputs\output.txt";
+            }
 
             var (coords, adj, M, Q, R, N) = mapAndQueryReader.ReadMapFile(mapPath);
             /*Console.WriteLine($"Intersections: {coords.Count}");
@@ -69,7 +71,12 @@ namespace AlgoWithBonus
 
             File.WriteAllText(outputPath, s);
 
+
+
             MessageBox.Show("Test Done");
+
+            /*coords.Clear();
+            adj.Clear();*/
         }
 
 

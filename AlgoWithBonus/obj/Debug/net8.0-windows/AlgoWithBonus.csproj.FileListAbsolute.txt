@@ -15,3 +15,22 @@ C:\Users\Youssef\source\repos\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windo
 C:\Users\Youssef\source\repos\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.genruntimeconfig.cache
 C:\Users\Youssef\source\repos\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\ref\AlgoWithBonus.dll
 C:\Users\Youssef\source\repos\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.VisualizeGraph.resources
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\bin\Debug\net8.0-windows\AlgoWithBonus.exe
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\bin\Debug\net8.0-windows\AlgoWithBonus.deps.json
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\bin\Debug\net8.0-windows\AlgoWithBonus.runtimeconfig.json
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\bin\Debug\net8.0-windows\AlgoWithBonus.dll
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\bin\Debug\net8.0-windows\AlgoWithBonus.pdb
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.Form1.resources
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.VisualizeGraph.resources
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.csproj.GenerateResource.cache
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.GeneratedMSBuildEditorConfig.editorconfig
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.AssemblyInfoInputs.cache
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.AssemblyInfo.cs
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.csproj.CoreCompileInputs.cache
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.sourcelink.json
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.dll
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\refint\AlgoWithBonus.dll
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.pdb
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.genruntimeconfig.cache
+D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\ref\AlgoWithBonus.dll
+C:\Users\Youssef\source\repos\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.sourcelink.json
