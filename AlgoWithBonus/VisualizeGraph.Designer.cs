@@ -49,6 +49,7 @@
             Controls.Add(button1);
             Name = "VisualizeGraph";
             Text = "VisualizeGraph";
+            Load += VisualizeGraph_Load;
             ResumeLayout(false);
         }
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlgoWithBonus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbe3650fb0b66a6f922da327a02d61def0093c77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e03da58af1899e13fdadabb31b41949d32b14b44")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlgoWithBonus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlgoWithBonus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -24,10 +24,6 @@ namespace AlgoWithBonus
             DestinationY = destinationY;
             R = r;
         }
-        public override string ToString()
-        {
-            return $"Source: ({SourceX}, {SourceY}), Destination: ({DestinationX}, {DestinationY}), R: {R}";
-        }
     }
     class mapAndQueryReader
     {
@@ -37,6 +33,7 @@ namespace AlgoWithBonus
             var queries = new Dictionary<int, Query>();
             string[] lines = File.ReadAllLines(path);
             int q = int.Parse(lines[0]);
+
             for (int i = 1; i <= q; i++)
             {
                 var parts = lines[i].Split();
@@ -47,18 +44,20 @@ namespace AlgoWithBonus
                 double r = double.Parse(parts[4], CultureInfo.InvariantCulture);
                 queries.Add(i - 1, new Query(sourceX, sourceY, destinationX, destinationY, r));
             }
+
             return queries;
         }
 
         public static (Dictionary<int, (double x, double y)> coordinates,
-                   Dictionary<int, List<(int neighbor, double time, double length)>> adjacencyList,
-                   int M, int Q, double R, int N)
-                   ReadMapFile(string filePath)
+                   Dictionary<int, List<(int neighbor, double time, double length)>> adjacencyList, int M, int Q, double I, int N)
+        ReadMapFile(string filePath)
         {
+
             string[] lines = File.ReadAllLines(filePath);
             int lineIndex = 0;
             int N = int.Parse(lines[lineIndex++]);
             var coordinates = new Dictionary<int, (double, double)>();
+
             for (int i = 0; i < N; i++)
             {
                 var parts = lines[lineIndex++].Split();
@@ -68,15 +67,13 @@ namespace AlgoWithBonus
                 coordinates[id] = (x, y);
             }
 
-
             var adjacencyList = new Dictionary<int, List<(int, double, double)>>();
-            foreach (var id in coordinates.Keys)
-                adjacencyList[id] = new List<(int, double, double)>();
+
 
             var meta = lines[lineIndex++].Split();
             int M;
-            int Q = 1;
-            double R = 0.0;
+            int Q = -1;
+            double I = -1;
 
             if (meta.Length == 1)
                 M = int.Parse(meta[0]);
@@ -85,24 +82,31 @@ namespace AlgoWithBonus
             {
                 M = int.Parse(meta[0]);
                 Q = int.Parse(meta[1]);
-                R = double.Parse(meta[2], CultureInfo.InvariantCulture);
+                I = double.Parse(meta[2], CultureInfo.InvariantCulture);
             }
-
             else
                 throw new FormatException($"Unexpected metadata line: {string.Join(" ", meta)}");
 
-            for (int i = 0; i < M; i++)
+            //MessageBox.Show(Q.ToString());
+
+            if (Q == -1)
             {
-                var parts = lines[lineIndex++].Split();
-                int u = int.Parse(parts[0]);
-                int v = int.Parse(parts[1]);
+                foreach (var id in coordinates.Keys)
+                    adjacencyList[id] = new List<(int, double, double)>();
 
-                double length = double.Parse(parts[2], CultureInfo.InvariantCulture);
-                double speed = double.Parse(parts[3], CultureInfo.InvariantCulture);
-                double time = (length / speed) * 60;
+                for (int i = 0; i < M; i++)
+                {
+                    var parts = lines[lineIndex++].Split();
+                    int u = int.Parse(parts[0]);
+                    int v = int.Parse(parts[1]);
 
-                adjacencyList[u].Add((v, time, length));
-                adjacencyList[v].Add((u, time, length));
+                    double length = double.Parse(parts[2], CultureInfo.InvariantCulture);
+                    double speed = double.Parse(parts[3], CultureInfo.InvariantCulture);
+                    double time = (length / speed) * 60;
+
+                    adjacencyList[u].Add((v, time, length));
+                    adjacencyList[v].Add((u, time, length));
+                }
             }
 
             /*for (int i = 0; i < N; i++)
@@ -112,7 +116,8 @@ namespace AlgoWithBonus
                     Console.WriteLine($"From Node: {i} to Node: {item.Item1}, Time: {item.Item2}, length: {item.Item3}");
                 }
             }*/
-            return (coordinates, adjacencyList, M, Q, R, N);
+
+            return (coordinates, adjacencyList, M, Q, I, N);
         }
     }
 }

@@ -111,11 +111,10 @@ namespace AlgoWithBonus
             Font font = new Font(this.Font.FontFamily, 8 / zoom);
             Brush nodeBrush = Brushes.Blue;
 
-            // Draw all edges
-            foreach (var kvp in coords)
+            foreach (var intersection in coords)
             {
-                int id = kvp.Key;
-                var pt1 = worldToScreen(kvp.Value);
+                int id = intersection.Key;
+                var pt1 = worldToScreen(intersection.Value);
 
                 if (adj.TryGetValue(id, out var neighbors))
                 {
@@ -128,7 +127,6 @@ namespace AlgoWithBonus
                 }
             }
 
-            // Draw red path if available
             if (highlightPath != null && highlightPath.Count >= 2)
             {
                 for (int i = 0; i < highlightPath.Count - 1; i++)
@@ -145,15 +143,14 @@ namespace AlgoWithBonus
                 }
             }
 
-            // Optionally draw nodes (disabled for now)
-            /*
-            foreach (var kvp in coords)
+
+            /*foreach (var node in coords)
             {
-                var pt = worldToScreen(kvp.Value);
+                var pt = worldToScreen(node.Value);
                 float r = 3;
                 g.FillEllipse(nodeBrush, pt.X - r, pt.Y - r, 2 * r, 2 * r);
-            }
-            */
+            }*/
+
         }
 
         List<int> nodes;
@@ -163,7 +160,12 @@ namespace AlgoWithBonus
         {
             nodes = Program.queryVisualize(coords, adj, queries, i++, N);
             highlightPath = nodes;
-            Invalidate(); // force redraw
+            Invalidate();
+        }
+
+        private void VisualizeGraph_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

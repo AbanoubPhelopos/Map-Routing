@@ -26,22 +26,18 @@ namespace AlgoWithBonus
 
                 if (sourceDistanceMeter <= R)
                 {
-
                     double walkTime = (sourceDistanceKm / 5.0) * 60.0;
                     adj[item.Key].Add((-1, walkTime, sourceDistanceKm));
                     adj[-1].Add((item.Key, walkTime, sourceDistanceKm));
-
-
                 }
 
                 double dx = destinationX - item.Value.x;
                 double dy = destinationY - item.Value.y;
                 double destinationDistanceKm = Math.Sqrt((dx * dx) + (dy * dy));
-                double destiantionDistanceMeter = destinationDistanceKm * 1000;
+                double destinationDistanceMeter = destinationDistanceKm * 1000;
 
-                if (destiantionDistanceMeter <= R)
+                if (destinationDistanceMeter <= R)
                 {
-
                     double walkTime = (destinationDistanceKm / 5.0) * 60.0;
                     adj[item.Key].Add((-2, walkTime, destinationDistanceKm));
                     adj[-2].Add((item.Key, walkTime, destinationDistanceKm));
@@ -58,17 +54,16 @@ namespace AlgoWithBonus
 
         public static string dijkstra(Dictionary<int, List<(int neighbor, double time, double length)>> adj)
         {
-
-            Dictionary<int, double> dist = new Dictionary<int, double>();
+            Dictionary<int, double> times = new Dictionary<int, double>();
             Dictionary<int, int> prev = new Dictionary<int, int>();
             HashSet<int> visited = new HashSet<int>();
 
             foreach (var node in adj.Keys)
             {
-                dist[node] = double.PositiveInfinity;
+                times[node] = double.PositiveInfinity;
             }
 
-            dist[-1] = 0;
+            times[-1] = 0;
 
             PriorityQueue<int, double> pq = new PriorityQueue<int, double>();
             pq.Enqueue(-1, 0);
@@ -82,31 +77,24 @@ namespace AlgoWithBonus
 
                 visited.Add(current);
 
-                if (!adj.ContainsKey(current)) continue;
+                if (!adj.ContainsKey(current))
+                    continue;
 
                 foreach (var (neighbor, time, _) in adj[current])
                 {
-                    double newDist = dist[current] + time;
+                    double newDist = times[current] + time;
 
-                    if (newDist < dist[neighbor])
+                    if (newDist < times[neighbor])
                     {
-                        dist[neighbor] = newDist;
+                        times[neighbor] = newDist;
                         prev[neighbor] = current;
                         pq.Enqueue(neighbor, newDist);
                     }
                 }
             }
 
-            if (!dist.ContainsKey(-2) || double.IsInfinity(dist[-2]))
-            {
-                Console.WriteLine("No path found from source to destination.");
-                return "";
-            }
-
-
-
-
-            return constructPath(prev, dist, adj);
+            
+            return constructPath(prev, times, adj);
         }
 
         static string constructPath(
@@ -157,8 +145,14 @@ namespace AlgoWithBonus
                 }
             }
 
-            if (fullPath[^2] != -2 && fullPath[^1] != -1 && fullPath[^1] != -2)
-                printedPath.Add(fullPath[^1]);
+            int lastIndex = fullPath.Count - 1;
+            int secondLastIndex = fullPath.Count - 2;
+
+            int last = fullPath[lastIndex];
+            int secondLast = fullPath[secondLastIndex];
+
+            if (secondLast != -2 && last != -1 && last != -2)
+                printedPath.Add(last);
 
             string result = string.Join(" ", printedPath) + "\n";
             result += $"{totalTime:F2} mins\n";
@@ -166,34 +160,36 @@ namespace AlgoWithBonus
             result += $"{walkDistance:F2} km\n";
             result += $"{vehicleDistance:F2} km\n\n";
 
-
             //Console.WriteLine(result);
 
             adj.Remove(-1);
             adj.Remove(-2);
-            foreach (var kv in adj)
+            foreach (var nodes in adj)
             {
-                kv.Value.RemoveAll(e => e.neighbor == -1 || e.neighbor == -2);
+                nodes.Value.RemoveAll(e => e.neighbor == -1 || e.neighbor == -2);
             }
 
 
             return result;
         }
 
+       
+        
+
 
         public static List<int> visDijkstra(Dictionary<int, List<(int neighbor, double time, double length)>> adj)
         {
 
-            Dictionary<int, double> dist = new Dictionary<int, double>();
+            Dictionary<int, double> times = new Dictionary<int, double>();
             Dictionary<int, int> prev = new Dictionary<int, int>();
             HashSet<int> visited = new HashSet<int>();
 
             foreach (var node in adj.Keys)
             {
-                dist[node] = double.PositiveInfinity;
+                times[node] = double.PositiveInfinity;
             }
 
-            dist[-1] = 0;
+            times[-1] = 0;
 
             PriorityQueue<int, double> pq = new PriorityQueue<int, double>();
             pq.Enqueue(-1, 0);
@@ -211,27 +207,19 @@ namespace AlgoWithBonus
 
                 foreach (var (neighbor, time, _) in adj[current])
                 {
-                    double newDist = dist[current] + time;
+                    double newDist = times[current] + time;
 
-                    if (newDist < dist[neighbor])
+                    if (newDist < times[neighbor])
                     {
-                        dist[neighbor] = newDist;
+                        times[neighbor] = newDist;
                         prev[neighbor] = current;
                         pq.Enqueue(neighbor, newDist);
                     }
                 }
             }
 
-            if (!dist.ContainsKey(-2) || double.IsInfinity(dist[-2]))
-            {
-                Console.WriteLine("No path found from source to destination.");
-                return null;
-            }
 
-
-
-
-            return visConstructPath(prev, dist, adj);
+            return visConstructPath(prev, times, adj);
         }
 
         static List<int> visConstructPath(
@@ -282,24 +270,24 @@ namespace AlgoWithBonus
                 }
             }
 
-            if (fullPath[^2] != -2 && fullPath[^1] != -1 && fullPath[^1] != -2)
-                printedPath.Add(fullPath[^1]);
+            int lastIndex = fullPath.Count - 1;
+            int secondLastIndex = fullPath.Count - 2;
 
-            
+            int last = fullPath[lastIndex];
+            int secondLast = fullPath[secondLastIndex];
 
+            if (secondLast != -2 && last != -1 && last != -2)
+                printedPath.Add(last);
 
-            //Console.WriteLine(result);
 
             adj.Remove(-1);
             adj.Remove(-2);
-            foreach (var kv in adj)
+            foreach (var nodes in adj)
             {
-                kv.Value.RemoveAll(e => e.neighbor == -1 || e.neighbor == -2);
+                nodes.Value.RemoveAll(e => e.neighbor == -1 || e.neighbor == -2);
             }
-
 
             return printedPath;
         }
-
     }
 }
