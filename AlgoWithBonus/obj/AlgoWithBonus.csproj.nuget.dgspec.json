@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\AlgoWithBonus.csproj": {}
+    "C:\\Users\\Abanoub Saweris\\Desktop\\AlgoWithBonus\\AlgoWithBonus\\AlgoWithBonus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\AlgoWithBonus.csproj": {
+    "C:\\Users\\Abanoub Saweris\\Desktop\\AlgoWithBonus\\AlgoWithBonus\\AlgoWithBonus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\AlgoWithBonus.csproj",
+        "projectUniqueName": "C:\\Users\\Abanoub Saweris\\Desktop\\AlgoWithBonus\\AlgoWithBonus\\AlgoWithBonus.csproj",
         "projectName": "AlgoWithBonus",
-        "projectPath": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\AlgoWithBonus.csproj",
-        "packagesPath": "C:\\Users\\Youssef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Youssef\\source\\repos\\AlgoWithBonus\\AlgoWithBonus\\obj\\",
+        "projectPath": "C:\\Users\\Abanoub Saweris\\Desktop\\AlgoWithBonus\\AlgoWithBonus\\AlgoWithBonus.csproj",
+        "packagesPath": "C:\\Users\\Abanoub Saweris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abanoub Saweris\\Desktop\\AlgoWithBonus\\AlgoWithBonus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Youssef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abanoub Saweris\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

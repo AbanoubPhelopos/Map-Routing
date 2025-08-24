@@ -34,3 +34,21 @@ D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBon
 D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.genruntimeconfig.cache
 D:\college\third year\6th term\algorism\Project\AlgoWithBonusyoussef\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\ref\AlgoWithBonus.dll
 C:\Users\Youssef\source\repos\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.sourcelink.json
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\bin\Debug\net8.0-windows\AlgoWithBonus.exe
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\bin\Debug\net8.0-windows\AlgoWithBonus.deps.json
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\bin\Debug\net8.0-windows\AlgoWithBonus.runtimeconfig.json
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\bin\Debug\net8.0-windows\AlgoWithBonus.dll
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\bin\Debug\net8.0-windows\AlgoWithBonus.pdb
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.Form1.resources
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.VisualizeGraph.resources
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.csproj.GenerateResource.cache
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.AssemblyInfoInputs.cache
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.AssemblyInfo.cs
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.csproj.CoreCompileInputs.cache
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.sourcelink.json
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.dll
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\refint\AlgoWithBonus.dll
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.pdb
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\AlgoWithBonus.genruntimeconfig.cache
+C:\Users\Abanoub Saweris\Desktop\AlgoWithBonus\AlgoWithBonus\obj\Debug\net8.0-windows\ref\AlgoWithBonus.dll

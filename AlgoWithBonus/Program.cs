@@ -1,11 +1,7 @@
 using System.Diagnostics;
-using System.Drawing.Drawing2D;
-using System.Formats.Tar;
 
 namespace AlgoWithBonus
 {
-
-
     internal static class Program
     {
         /// <summary>
@@ -14,8 +10,6 @@ namespace AlgoWithBonus
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
@@ -26,8 +20,8 @@ namespace AlgoWithBonus
             Stopwatch IOincluded = new Stopwatch();
             IOincluded.Start();
             if (outputPath == null)
-            { 
-            outputPath = @"D:\college\third year\6th term\algorism\Project\AlgoWithBonus\outputs\output.txt";
+            {
+                outputPath = @"D:\college\third year\6th term\algorism\Project\AlgoWithBonus\outputs\output.txt";
             }
 
             var (coords, adj, M, Q, I, N) = mapAndQueryReader.ReadMapFile(mapPath);
@@ -49,14 +43,14 @@ namespace AlgoWithBonus
                 {
                     localAdj[node.Key] = new List<(int, double, double)>(kv.Value);
                 }*/
-              
-                    solveProblem.getStartAndEndNodes(coords, adj,
-                    query.Value.R,
-                    query.Value.SourceX, query.Value.SourceY,
-                    query.Value.DestinationX, query.Value.DestinationY, N);
 
-                    s += solveProblem.dijkstra(adj);
-                
+                solveProblem.getStartAndEndNodes(coords, adj,
+                query.Value.R,
+                query.Value.SourceX, query.Value.SourceY,
+                query.Value.DestinationX, query.Value.DestinationY, N);
+
+                s += solveProblem.dijkstra(adj);
+
             }
             IOexcluded.Stop();
             //Console.WriteLine(IOexcluded.ElapsedMilliseconds);
@@ -88,7 +82,7 @@ namespace AlgoWithBonus
         }
 
         public static List<int> queryVisualize(Dictionary<int, (double x, double y)> coordinates,
-        Dictionary<int, List<(int neighbor, double time, double length)>> adjacencyList, 
+        Dictionary<int, List<(int neighbor, double time, double length)>> adjacencyList,
         Dictionary<int, Query> queries, int querycnt, int N)
         {
             solveProblem.getStartAndEndNodes(coordinates, adjacencyList,
