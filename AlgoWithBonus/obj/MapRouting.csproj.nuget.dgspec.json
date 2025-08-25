@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\AlgoWithBonus.csproj": {}
+    "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\MapRouting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\AlgoWithBonus.csproj": {
+    "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\MapRouting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\AlgoWithBonus.csproj",
-        "projectName": "AlgoWithBonus",
-        "projectPath": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\AlgoWithBonus.csproj",
+        "projectUniqueName": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\MapRouting.csproj",
+        "projectName": "MapRouting",
+        "projectPath": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\MapRouting.csproj",
         "packagesPath": "C:\\Users\\Abanoub Saweris\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\obj\\",
         "projectStyle": "PackageReference",

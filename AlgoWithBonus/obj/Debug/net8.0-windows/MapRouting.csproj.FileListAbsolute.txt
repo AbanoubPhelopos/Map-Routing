@@ -1,0 +1,17 @@
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\obj\Debug\net8.0-windows\MapRouting.Form1.resources
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\obj\Debug\net8.0-windows\MapRouting.csproj.GenerateResource.cache
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\obj\Debug\net8.0-windows\MapRouting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\obj\Debug\net8.0-windows\MapRouting.AssemblyInfoInputs.cache
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\obj\Debug\net8.0-windows\MapRouting.AssemblyInfo.cs
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\obj\Debug\net8.0-windows\MapRouting.csproj.CoreCompileInputs.cache
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\obj\Debug\net8.0-windows\MapRouting.sourcelink.json
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\bin\Debug\net8.0-windows\MapRouting.exe
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\bin\Debug\net8.0-windows\MapRouting.deps.json
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\bin\Debug\net8.0-windows\MapRouting.runtimeconfig.json
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\bin\Debug\net8.0-windows\MapRouting.dll
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\bin\Debug\net8.0-windows\MapRouting.pdb
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\obj\Debug\net8.0-windows\MapRouting.dll
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\obj\Debug\net8.0-windows\refint\MapRouting.dll
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\obj\Debug\net8.0-windows\MapRouting.pdb
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\obj\Debug\net8.0-windows\MapRouting.genruntimeconfig.cache
+C:\Users\Abanoub Saweris\Desktop\MapRouting\AlgoWithBonus\obj\Debug\net8.0-windows\ref\MapRouting.dll

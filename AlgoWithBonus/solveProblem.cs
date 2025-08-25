@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AlgoWithBonus
+﻿namespace MapRouting
 {
-    class solveProblem
+    public class solveProblem
     {
 
         public static void getStartAndEndNodes(Dictionary<int, (double x, double y)> coordinates,
@@ -93,7 +87,7 @@ namespace AlgoWithBonus
                 }
             }
 
-            
+
             return constructPath(prev, times, adj);
         }
 
@@ -173,8 +167,8 @@ namespace AlgoWithBonus
             return result;
         }
 
-       
-        
+
+
 
 
         public static List<int> visDijkstra(Dictionary<int, List<(int neighbor, double time, double length)>> adj)

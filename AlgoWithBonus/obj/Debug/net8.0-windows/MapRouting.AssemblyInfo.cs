@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AlgoWithBonus")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MapRouting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bf12d5f95fd493d9e924387bd59114d41b1d2de")]
-[assembly: System.Reflection.AssemblyProductAttribute("AlgoWithBonus")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AlgoWithBonus")]
+[assembly: System.Reflection.AssemblyProductAttribute("MapRouting")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MapRouting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

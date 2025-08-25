@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\MapRouting.csproj|c:\\users\\abanoub saweris\\desktop\\maprouting\\algowithbonus\\enhancedsssp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\MapRouting.csproj|solutionrelative:algowithbonus\\enhancedsssp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\MapRouting.csproj|c:\\users\\abanoub saweris\\desktop\\maprouting\\algowithbonus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\MapRouting.csproj|solutionrelative:algowithbonus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\MapRouting.csproj|c:\\users\\abanoub saweris\\desktop\\maprouting\\algowithbonus\\solveproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\MapRouting.csproj|solutionrelative:algowithbonus\\solveproblem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\MapRouting.csproj|c:\\users\\abanoub saweris\\desktop\\maprouting\\algowithbonus\\mapandqueryreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\MapRouting.csproj|solutionrelative:algowithbonus\\mapandqueryreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\MapRouting.csproj|c:\\users\\abanoub saweris\\desktop\\maprouting\\algowithbonus\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\MapRouting.csproj|solutionrelative:algowithbonus\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\MapRouting.csproj|c:\\users\\abanoub saweris\\desktop\\maprouting\\algowithbonus\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AB584D-D220-4FF3-9430-BE7DC106087B}|AlgoWithBonus\\MapRouting.csproj|solutionrelative:algowithbonus\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\Form1.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\Form1.cs",
+              "ToolTip": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\Form1.cs",
+              "RelativeToolTip": "AlgoWithBonus\\Form1.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAkwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T16:44:17.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\Form1.Designer.cs",
+              "RelativeToolTip": "AlgoWithBonus\\Form1.Designer.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAAKIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T16:31:06.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnhancedSSSP.cs",
+              "DocumentMoniker": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\EnhancedSSSP.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\EnhancedSSSP.cs",
+              "ToolTip": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\EnhancedSSSP.cs*",
+              "RelativeToolTip": "AlgoWithBonus\\EnhancedSSSP.cs*",
+              "ViewState": "AgIAAJQBAAAAAAAAAAA3wKsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T16:30:57.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "solveProblem.cs",
+              "DocumentMoniker": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\solveProblem.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\solveProblem.cs",
+              "ToolTip": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\solveProblem.cs",
+              "RelativeToolTip": "AlgoWithBonus\\solveProblem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T16:22:02.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\Program.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\Program.cs",
+              "ToolTip": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\Program.cs",
+              "RelativeToolTip": "AlgoWithBonus\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T14:38:37.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "mapAndQueryReader.cs",
+              "DocumentMoniker": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\mapAndQueryReader.cs",
+              "RelativeDocumentMoniker": "AlgoWithBonus\\mapAndQueryReader.cs",
+              "ToolTip": "C:\\Users\\Abanoub Saweris\\Desktop\\MapRouting\\AlgoWithBonus\\mapAndQueryReader.cs",
+              "RelativeToolTip": "AlgoWithBonus\\mapAndQueryReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T16:22:01.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

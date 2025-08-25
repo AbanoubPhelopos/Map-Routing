@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Globalization;
 
-namespace AlgoWithBonus
+namespace MapRouting
 {
 
     public class Query
@@ -27,7 +21,6 @@ namespace AlgoWithBonus
     }
     class mapAndQueryReader
     {
-
         public static Dictionary<int, Query> ReadQueriesFromFile(string path)
         {
             var queries = new Dictionary<int, Query>();

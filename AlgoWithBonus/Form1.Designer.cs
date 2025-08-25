@@ -1,14 +1,14 @@
-﻿namespace AlgoWithBonus
+﻿namespace MapRouting
 {
     partial class Form1
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,8 +23,8 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -37,6 +37,8 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
+            checkBoxEnhanced = new CheckBox();
+            button6 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -88,7 +90,7 @@
             button5.Name = "button5";
             button5.Size = new Size(141, 43);
             button5.TabIndex = 6;
-            button5.Text = "Select  Output Path ";
+            button5.Text = "Select Output Path ";
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
@@ -101,7 +103,7 @@
             label1.Name = "label1";
             label1.Size = new Size(412, 57);
             label1.TabIndex = 7;
-            label1.Text = "Welcome to our  App";
+            label1.Text = "Welcome to our App";
             // 
             // label2
             // 
@@ -134,13 +136,37 @@
             label4.Name = "label4";
             label4.Size = new Size(184, 24);
             label4.TabIndex = 10;
-            label4.Text = "Select Graph Path:";
+            label4.Text = "Select Output Path:";
+            // 
+            // checkBoxEnhanced
+            // 
+            checkBoxEnhanced.AutoSize = true;
+            checkBoxEnhanced.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            checkBoxEnhanced.ForeColor = Color.DarkGreen;
+            checkBoxEnhanced.Location = new Point(69, 320);
+            checkBoxEnhanced.Name = "checkBoxEnhanced";
+            checkBoxEnhanced.Size = new Size(401, 24);
+            checkBoxEnhanced.TabIndex = 11;
+            checkBoxEnhanced.Text = "Use Enhanced Algorithm O(m log^(2/3) n)";
+            checkBoxEnhanced.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            button6.Location = new Point(336, 364);
+            button6.Name = "button6";
+            button6.Size = new Size(141, 49);
+            button6.TabIndex = 12;
+            button6.Text = "Run Comparison";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button6);
+            Controls.Add(checkBoxEnhanced);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -151,7 +177,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Map Routing Algorithm Comparison";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -168,5 +194,7 @@
         private Label label2;
         private Label label3;
         private Label label4;
+        private CheckBox checkBoxEnhanced;
+        private Button button6;
     }
 }
